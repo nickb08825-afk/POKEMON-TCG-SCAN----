@@ -48,7 +48,7 @@ struct CollectionsView: View {
             Text("COLLECTIONS")
                 .font(Theme.Font.largeTitle)
                 .foregroundColor(Theme.Colors.textPrimary)
-            Text("Organise your cards into groups")
+            Text("Organize your cards into groups")
                 .font(Theme.Font.caption)
                 .foregroundColor(Theme.Colors.textSecondary)
         }
