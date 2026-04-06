@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* PokemonTCGScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000001 /* PokemonTCGScanApp.swift */; };
+		AA000002 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000002 /* RootTabView.swift */; };
+		AA000003 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000003 /* Theme.swift */; };
+		AA000004 /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000004 /* InventoryItem.swift */; };
+		AA000005 /* ScanRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000005 /* ScanRecord.swift */; };
+		AA000006 /* InventoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000006 /* InventoryStore.swift */; };
+		AA000007 /* JSONInventoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000007 /* JSONInventoryStore.swift */; };
+		AA000008 /* MockCatalogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000008 /* MockCatalogService.swift */; };
+		AA000009 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000009 /* ExportService.swift */; };
+		AA000010 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000010 /* InventoryView.swift */; };
+		AA000011 /* InventoryItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000011 /* InventoryItemRow.swift */; };
+		AA000012 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000012 /* ScanView.swift */; };
+		AA000013 /* ScanResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000013 /* ScanResultsView.swift */; };
+		AA000014 /* FinishConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000014 /* FinishConfirmationView.swift */; };
+		AA000015 /* ExpansionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000015 /* ExpansionsView.swift */; };
+		AA000016 /* CollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000016 /* CollectionsView.swift */; };
+		AA000017 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000017 /* SettingsView.swift */; };
+		AA000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000018 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB000001 /* PokemonTCGScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTCGScanApp.swift; sourceTree = "<group>"; };
+		AB000002 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		AB000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AB000004 /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		AB000005 /* ScanRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanRecord.swift; sourceTree = "<group>"; };
+		AB000006 /* InventoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryStore.swift; sourceTree = "<group>"; };
+		AB000007 /* JSONInventoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInventoryStore.swift; sourceTree = "<group>"; };
+		AB000008 /* MockCatalogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCatalogService.swift; sourceTree = "<group>"; };
+		AB000009 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		AB000010 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		AB000011 /* InventoryItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemRow.swift; sourceTree = "<group>"; };
+		AB000012 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		AB000013 /* ScanResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResultsView.swift; sourceTree = "<group>"; };
+		AB000014 /* FinishConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishConfirmationView.swift; sourceTree = "<group>"; };
+		AB000015 /* ExpansionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionsView.swift; sourceTree = "<group>"; };
+		AB000016 /* CollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsView.swift; sourceTree = "<group>"; };
+		AB000017 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AB000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB000019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB000020 /* PokemonTCGScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonTCGScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD000001 /* PokemonTCGScan */ = {
+			isa = PBXGroup;
+			children = (
+				AD000002 /* App */,
+				AD000003 /* Theme */,
+				AD000004 /* Models */,
+				AD000005 /* Services */,
+				AD000006 /* Views */,
+				AD000009 /* Resources */,
+				AB000018 /* Assets.xcassets */,
+			);
+			path = PokemonTCGScan;
+			sourceTree = "<group>";
+		};
+		AD000002 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AB000001 /* PokemonTCGScanApp.swift */,
+				AB000002 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD000003 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AB000003 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		AD000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB000004 /* InventoryItem.swift */,
+				AB000005 /* ScanRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB000006 /* InventoryStore.swift */,
+				AB000007 /* JSONInventoryStore.swift */,
+				AB000008 /* MockCatalogService.swift */,
+				AB000009 /* ExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AD000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD000007 /* Inventory */,
+				AD000008 /* Scan */,
+				AD000010 /* Expansions */,
+				AD000011 /* Collections */,
+				AD000012 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD000007 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				AB000010 /* InventoryView.swift */,
+				AB000011 /* InventoryItemRow.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
+		AD000008 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				AB000012 /* ScanView.swift */,
+				AB000013 /* ScanResultsView.swift */,
+				AB000014 /* FinishConfirmationView.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		AD000009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB000019 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD000010 /* Expansions */ = {
+			isa = PBXGroup;
+			children = (
+				AB000015 /* ExpansionsView.swift */,
+			);
+			path = Expansions;
+			sourceTree = "<group>";
+		};
+		AD000011 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				AB000016 /* CollectionsView.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		AD000012 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AB000017 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AE000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB000020 /* PokemonTCGScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE000002 /* root */ = {
+			isa = PBXGroup;
+			children = (
+				AD000001 /* PokemonTCGScan */,
+				AE000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF000001 /* PokemonTCGScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA000001 /* Build configuration list for PBXNativeTarget "PokemonTCGScan" */;
+			buildPhases = (
+				AC000002 /* Sources */,
+				AC000001 /* Frameworks */,
+				AC000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonTCGScan;
+			productName = PokemonTCGScan;
+			productReference = AB000020 /* PokemonTCGScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AF000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BA000002 /* Build configuration list for PBXProject "PokemonTCGScan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE000002 /* root */;
+			productRefGroup = AE000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF000001 /* PokemonTCGScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* PokemonTCGScanApp.swift in Sources */,
+				AA000002 /* RootTabView.swift in Sources */,
+				AA000003 /* Theme.swift in Sources */,
+				AA000004 /* InventoryItem.swift in Sources */,
+				AA000005 /* ScanRecord.swift in Sources */,
+				AA000006 /* InventoryStore.swift in Sources */,
+				AA000007 /* JSONInventoryStore.swift in Sources */,
+				AA000008 /* MockCatalogService.swift in Sources */,
+				AA000009 /* ExportService.swift in Sources */,
+				AA000010 /* InventoryView.swift in Sources */,
+				AA000011 /* InventoryItemRow.swift in Sources */,
+				AA000012 /* ScanView.swift in Sources */,
+				AA000013 /* ScanResultsView.swift in Sources */,
+				AA000014 /* FinishConfirmationView.swift in Sources */,
+				AA000015 /* ExpansionsView.swift in Sources */,
+				AA000016 /* CollectionsView.swift in Sources */,
+				AA000017 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PokemonTCGScan/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tcgscan.PokemonTCGScan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PokemonTCGScan/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tcgscan.PokemonTCGScan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA000001 /* Build configuration list for PBXNativeTarget "PokemonTCGScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB000003 /* Debug */,
+				BB000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA000002 /* Build configuration list for PBXProject "PokemonTCGScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB000001 /* Debug */,
+				BB000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AF000002 /* Project object */;
+}
